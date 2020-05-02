@@ -18,7 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* firebasechatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* firebasechatTests.m */; };
 		4A9CA5742C0F53C9CDDB38B9 /* libPods-firebasechat-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7F03E7F0C6516AD3F1FD2E /* libPods-firebasechat-tvOS.a */; };
 		840BACB1B5CE24F039595BB3 /* libPods-firebasechat-firebasechatTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCD9EE7CA0528457A018DB3 /* libPods-firebasechat-firebasechatTests.a */; };
-		9ABB4E7C245D95AA008ACF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABB4E7B245D95AA008ACF8F /* GoogleService-Info.plist */; };
+		9ABB4E7E245DF0D7008ACF8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABB4E7D245DF0D7008ACF8F /* GoogleService-Info.plist */; };
 		9DD284D4709C334BA8E44CE6 /* libPods-firebasechat-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086A0E08F4F6959F5CACF96 /* libPods-firebasechat-tvOSTests.a */; };
 		AF90CF11A7A3AF3BCEDFFA0B /* libPods-firebasechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E394EDF710A550639F073C /* libPods-firebasechat.a */; };
 /* End PBXBuildFile section */
@@ -63,7 +63,7 @@
 		71A41F28B7C751D369537D34 /* Pods-firebasechat-firebasechatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat-firebasechatTests.debug.xcconfig"; path = "Target Support Files/Pods-firebasechat-firebasechatTests/Pods-firebasechat-firebasechatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8487B664D3BBA6910DD71E6B /* Pods-firebasechat-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-firebasechat-tvOSTests/Pods-firebasechat-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8735EBCD32CD6EC160D43643 /* Pods-firebasechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat.debug.xcconfig"; path = "Target Support Files/Pods-firebasechat/Pods-firebasechat.debug.xcconfig"; sourceTree = "<group>"; };
-		9ABB4E7B245D95AA008ACF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ABB4E7D245DF0D7008ACF8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BE7F03E7F0C6516AD3F1FD2E /* libPods-firebasechat-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasechat-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B40B324D7CDF262F5ABE49 /* Pods-firebasechat-firebasechatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat-firebasechatTests.release.xcconfig"; path = "Target Support Files/Pods-firebasechat-firebasechatTests/Pods-firebasechat-firebasechatTests.release.xcconfig"; sourceTree = "<group>"; };
 		E44F7840EE5C6CE4A2B0349F /* Pods-firebasechat-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasechat-tvOS.release.xcconfig"; path = "Target Support Files/Pods-firebasechat-tvOS/Pods-firebasechat-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		13B07FAE1A68108700A75B9A /* firebasechat */ = {
 			isa = PBXGroup;
 			children = (
-				9ABB4E7B245D95AA008ACF8F /* GoogleService-Info.plist */,
+				9ABB4E7D245DF0D7008ACF8F /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -343,7 +343,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				9ABB4E7C245D95AA008ACF8F /* GoogleService-Info.plist in Resources */,
+				9ABB4E7E245DF0D7008ACF8F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

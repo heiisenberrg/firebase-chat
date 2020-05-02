@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>628925218290-j0d874nhv0si01k3ojrnve1c345pbaq1.apps.googleusercontent.com</string>
+	<string>509743929303-k4b3q6chdeq93q49kadgfrjpqt25vvii.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.628925218290-j0d874nhv0si01k3ojrnve1c345pbaq1</string>
+	<string>com.googleusercontent.apps.509743929303-k4b3q6chdeq93q49kadgfrjpqt25vvii</string>
 	<key>API_KEY</key>
-	<string>AIzaSyASJ1gEPQEjPteRwvnNYvDkS-b9fiwWmPE</string>
+	<string>AIzaSyC7CMhIFKSqmB8UaYvwx0lIeujug1bljog</string>
 	<key>GCM_SENDER_ID</key>
-	<string>628925218290</string>
+	<string>509743929303</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.umbrellacorp.chatty</string>
+	<string>com.firebase.chatty</string>
 	<key>PROJECT_ID</key>
-	<string>chatty-5a645</string>
+	<string>fir-chat-4dcdd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chatty-5a645.appspot.com</string>
+	<string>fir-chat-4dcdd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:628925218290:ios:7ac6ae1279ae8fc1d9bf6b</string>
+	<string>1:509743929303:ios:0d57ff3c21043107501d92</string>
 	<key>DATABASE_URL</key>
-	<string>https://chatty-5a645.firebaseio.com</string>
+	<string>https://fir-chat-4dcdd.firebaseio.com</string>
 </dict>
 </plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "509743929303",
+    "firebase_url": "https://fir-chat-4dcdd.firebaseio.com",
+    "project_id": "fir-chat-4dcdd",
+    "storage_bucket": "fir-chat-4dcdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509743929303:android:574124e02603b909501d92",
+        "android_client_info": {
+          "package_name": "com.firebasechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509743929303-mj2no1md3vlnvfl01jn9mobdkgrqigj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNd7TVM7JvzMRNfWT6PNbhhU1y35s0E-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509743929303-mj2no1md3vlnvfl01jn9mobdkgrqigj5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509743929303-k4b3q6chdeq93q49kadgfrjpqt25vvii.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.firebase.chatty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
