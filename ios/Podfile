@@ -80,6 +80,7 @@ target 'firebasechat' do
   pod 'Firebase/Core', '~> 6.11.0'
   pod 'Firebase/Auth', '~> 6.11.0'
   pod 'Firebase/Messaging', '~> 6.11.0'
+  pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
 
   target 'firebasechatTests' do
     inherit! :complete
