@@ -3,6 +3,7 @@ import firebase from 'react-native-firebase';
 import Login from './screens/login';
 import ChatList from './screens/chatlist';
 import Contacts from './screens/addressbook';
+import Chat from './screens/chat';
 
 function App() {
   const [screenName, setScreenName] = useState('login');
@@ -25,14 +26,17 @@ function App() {
   return (
     <>
       {screenName === 'login' && (
-        <Login changeScreen={name => changeScreen(name)} user={user}/>
+        <Login changeScreen={name => changeScreen(name)} user={user} />
       )}
       {screenName === 'ChatList' && (
-        <ChatList changeScreen={name => changeScreen(name)} user={user}/>
+        <ChatList changeScreen={name => changeScreen(name)} user={user} />
       )}
       {screenName === 'Contacts' && (
-        <Contacts changeScreen={name => changeScreen(name)} user={user}/>
+        <Contacts changeScreen={name => changeScreen(name)} user={user} />
       )}
+      {/* {screenName === 'Chat' && (
+        <Chat changeScreen={name => changeScreen(name)} user={user} />
+      )} */}
     </>
   );
 }
